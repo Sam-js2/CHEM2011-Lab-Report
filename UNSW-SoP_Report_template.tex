@@ -21,11 +21,11 @@
 
 \author{S.J. Shelton (z5359712)}
 \affiliation{Friday AM class}
-\affiliation{Word count: 1639 words}
+\affiliation{Word count: c.1650}
 \date{\currenttime~\today}
 
 \begin{abstract}
-A high-resolution infrared spectrum of gaseous Carbon Monoxide (CO), taken at room temperature and atmospheric pressure, is examined for characteristic rotational structure between 2000 and 2200 wavenumbers. The rotational structure is assigned, and both quadratic and cubic functions are used comparatively to extract rotational constants of interest. The cubic function is found to have a stronger correlation to experimental data than the quadratic (through a comparison of residuals), likely because the $x^3$ term accounts for centrifugal distortion. Gathered constants are used to determine the equilibrium rotational constant, $B_e$, as $1.9312(10)$, which is within experimental precision of the existing accepted value of $1.9313$ \cite{NIST}. The usefulness of Carbon Monoxide (and the determined values) to determine the temperature of astronomical bodies is discussed, and basic models using a Boltzmann distribution and experimental data are constructed.
+A high-resolution infrared spectrum of gaseous Carbon Monoxide (CO), taken at room temperature and atmospheric pressure, is examined for characteristic rotational structure between 2000 and 2200 wavenumbers. The rotational structure is assigned, and both quadratic and cubic functions are used comparatively to extract rotational constants of interest. The cubic function is found to have a stronger correlation to experimental data than the quadratic (through a comparison of residuals), likely because the $x^3$ term accounts for centrifugal distortion. Gathered constants were calculated as follows: $B_e = 1.9312(10)$, $B_1 = 1.9054(10)$, $\omega = 2143.190(13)$, $\alpha_e = 0.0175(19)$, $B_0 = 1.9224(10)$ cm$^{-1}$, and $r_e = 1.1282(15)$ \AA. The usefulness of Carbon Monoxide (and the determined values) to determine the temperature of astronomical bodies is discussed, and basic models using a Boltzmann distribution and experimental data are constructed.
 \end{abstract}
 
 \maketitle
@@ -54,7 +54,7 @@ This process is repeated for quadratic and cubic fits, and the two are quantitiv
 
 \section{Experimental Methods}
 
-Data was recorded using a {\it Nicolet iS50} FT-IR spectrometer, using a high resolution and by averaging 64 scans to ensure usable, high-resolution data.
+Data was recorded using a {\it Nicolet iS50} FT-IR spectrometer, using a high resolution and by averaging 64 scans to ensure precise data with a well delimitated structure.
 
 In order to correctly model the global precession of the data, both a cubic and a quadratic function were used and compared. These functions were defined as follows in \ref{eqn:fit}, with the quadratic version simply emitting the cubic term, i.e., $ D = 0$. Note that $D$ is just an arbitrary constant, whose physical meaning will be discussed later.
 
@@ -145,15 +145,15 @@ Additionally, we should consider why the Boltzmann-derived thermal fit, shown in
 
 Recording the temperature at atmospheric pressure distorts the relative absorbance peaks. As Van Krefeld and Van Der Elksen note\cite{Pressure}, we should expect to see a greater difference in the intensity of adjacent rotational transitions at higher temperatures. This explains the deviation from the expected distribution.
 
-An additional source of some of this error might be the saturation of the experimental apparatus. Sample data (provided in the QS4 analysis lab) has absorbance peaks roughly an order of magnitude less than gathered experimental data. In his paper investigating the effects of saturation in FTIR spectroscopy, Grdadolnik shows how increasing concentrations of the compounds of interest can conceal the true magnitude and detail of FTIR absorbance peaks\cite{Saturation}. This effect could certainly have contributed to the observed data.
+An additional source of some of this error might be the saturation of the experimental apparatus. Sample data (provided in the QS4 analysis lab) has absorbance peaks roughly an order of magnitude less than gathered experimental data. Grdadolnik notes how increasing concentrations of the compounds of interest can conceal the true magnitude and detail of FTIR absorbance peaks\cite{Saturation}. Additionally, absolute absorbances are much larger than the sample data. This could lead to inaccuracies as the actual absorbance deviates from the Beer Lambert Law at higher absorbances.
 
 Note that the thermal results are dependent on the relative {\it intensity} of rotational peaks, while the rotational results are dependent on their relevant {\it energies}. This means that we can get great results for the rotational constants while having not very useful thermal data.
 
 \section{Conclusions}
 
-An infrared rotational spectra of CO was assigned and analysed, with rotational constants extracted. A cubic model was determined (by analysis of residuals) to be the most appropriate, and the value of $B_e$ was determined experimentally to be $1.9312(10)$ cm$^{-1}$, within experimental precision of the existing accepted value of $1.9313$ cm$^{-1}$ \cite{NIST}. This trend continued for other rotational constants. 
+An infrared rovibrational spectra of CO was assigned and analysed, with rotational constants extracted. A cubic model was determined (by analysis of residuals) to be the most appropriate, and the value of $B_e$ was determined experimentally to be $1.9312(10)$ cm$^{-1}$, within experimental precision of the existing accepted value of $1.9313$ cm$^{-1}$ \cite{NIST}. This trend continued for other rotational constants, $B_1 = 1.9054(10)$, $\omega = 2143.190(13)$, $\alpha_e = 0.0175(19)$, $B_0 = 1.9224(10)$ cm$^{-1}$, and $r_e = 1.1282(15)$ \AA.
 
-Physical justifications for the cubic model's superiority were explored, and a Boltzmann relationship was plotted against peak intensity to determine thermal properties. Inaccuracies in these models were discussed.
+The physical justifications for the cubic model's superiority were rationalised as results of centrifugal distortion in the non-rigid rotor model, and as a consequence of the limitation of the morse potential approximation. Inaccuracies in the Bolzmann fit were attributed to the pressure the spectra was recorded at, in addition to over-saturation of the apparatus. 
 
 \begin{thebibliography}{99}
 
